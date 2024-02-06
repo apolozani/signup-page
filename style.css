@@ -150,13 +150,25 @@ text-align: center;
 }
 }
 
-@media screen and (max-width: 600px) {
-.sign-in-box {
-/* make the box smaller */
-width: 90%;
-min-width: 90%;
-/* center the box horizontally */
-margin: 0 auto;
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    /* Example: Adjust the size of the email input */
+    .email-box input[type="text"] {
+        font-size: 16px;
+    }
+
+    /* Example: Adjust the size of the title text */
+    .title h1 {
+        font-size: 24px;
+    }
+
+    /* Example: Adjust the size of the sign-in button */
+    .sign-in-button a {
+        font-size: 16px;
+    }
+
+    /* Add more responsive adjustments as needed */
 }
 input {
 /* make the input fields smaller */
