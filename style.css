@@ -1,0 +1,175 @@
+html{
+    background-color: rgb(41, 41, 41);
+   background-image: url(netflixlogo.jpg);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.netflix-logo{
+    display: flex;
+    justify-content: center;
+}
+.netflix-logo svg{
+    width: 20%;
+    margin: 70px;
+    
+}
+
+.sign-in-box{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    min-width: 28rem;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input{
+    width: 80%;
+    min-width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+}
+input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+input:focus{
+    background-color: rgb(116, 116, 116);
+    border: none;
+}
+
+#btn {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 7px 115px 7px 115px;
+    background-color: rgb(226,2,2);
+    border-radius: 7px;
+}
+
+
+
+.remember label{
+float: left;
+}
+
+.new-netflix{
+text-align: left;
+margin-left: 10%;
+margin-top: 40px;
+color: grey;
+
+}
+
+.new-netflix a{
+text-decoration: none;
+color: white;
+}
+
+.new-netflix a{
+text-decoration: none;
+color: white;
+}
+.new-netflix a:hover{
+text-decoration: none;
+color: white;
+text-decoration: underline;
+}
+
+.captcha{
+font-size: 13px;
+margin-top: 20px;
+text-align: left;
+margin-left: 10%;
+}
+
+.captcha a{
+color: rgb(45, 45, 255);
+text-decoration: none;
+}
+
+.captcha a:hover{
+text-decoration: underline;
+}
+
+.footer{
+background-color: rgb(29, 29, 29);
+margin-top: 100px;
+padding: 30px;
+color: darkgray;
+}
+
+.footer a{
+color: darkgray;
+margin-bottom: 20px;
+}
+.footer-info{
+display: flex;
+justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1020px) {
+.sign-in-box {
+/* make the box smaller */
+width: 50%;
+min-width: 50%;
+/* center the box horizontally */
+margin: 0 auto;
+}
+input {
+/* make the input fields smaller */
+width: 90%;
+min-width: 90%;
+}
+button {
+/* make the button smaller */
+width: 90%;
+}
+.footer-info{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+.sign-in-box {
+/* make the box smaller */
+width: 90%;
+min-width: 90%;
+/* center the box horizontally */
+margin: 0 auto;
+}
+input {
+/* make the input fields smaller */
+width: 90%;
+min-width: 90%;
+}
+button {
+/* make the button smaller */
+width: 90%;
+}
+.footer-info{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+}
+}

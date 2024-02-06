@@ -1,0 +1,214 @@
+html{
+    background-color: rgb(0, 0, 0);
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    div.get-started{
+        background-image: url(netflixlogo.jpg) !important;
+    }
+    
+
+    .logo-button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        /*margin: 2rem;
+        /*box-sizing: border-box;*/
+        
+    }
+
+    .logo svg{
+        width: 50%;
+    }
+
+    .sign-in-button a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(226, 2, 2);
+        padding: 8px 18px;
+        border-radius: 5px;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 0;
+        text-shadow: 2px 2px 8px #000000;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0;
+        text-shadow: 2px 2px 8px #000000;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: center;
+        text-shadow: 2px 2px 8px #000000;
+    }
+
+    .email-address{
+        display: flex;
+        justify-content: center;
+    }
+    .email-box input{
+        padding: 10px 20px;
+        border: 0;
+        width: 30rem;
+        height: 2.5rem;
+        
+    }
+    input::placeholder{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    input:active{
+        font-size: 18px;
+    }
+    .get-started-button{
+        display: flex;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .get-started-button a{
+        text-decoration: none;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(226, 2, 2);
+        padding: 13.5px 30px;
+        color: white;
+    }
+
+    .enjoy, .download, .watch-everywhere{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        align-items: center;
+    }
+
+    .text-side-1 h2 , .text-side-2 h2, .text-side-3 h2{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .text-side-1 p, .text-side-2 p , .text-side-3 p{
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        background-color: rgb(15, 15, 15);
+        margin-top: 100px;
+        padding: 3rem 20rem;
+        color: darkgray;
+        }
+
+        .footer a{
+        color: darkgray;
+        margin-bottom: 20px;
+        }
+        .footer-info{
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .footer p{
+            font-size: 13px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* apply styles for small screens */
+            body {
+              font-size: 14px;
+            }
+            h1 {
+              font-size: 40px;
+            }
+            h2 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 16px;
+            }
+            .email-box input {
+              width: 80%;
+            }
+            .get-started-button a {
+              font-size: 20px;
+              padding: 10px 20px;
+            }
+
+            .email-address{
+                display: block;
+                padding-bottom: 25px;
+            }
+
+            input{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .get-started-button{
+                padding-top: 10px;
+                justify-content: center;
+            }
+
+            .sign-in-button a{
+                text-decoration: none;
+                color: white;
+                background-color: rgb(226, 2, 2);
+                padding: 8px 18px;
+                border-radius: 5px;
+                font-size: 18px;
+            }
+
+            .enjoy, .download, .watch-everywhere{ 
+                display: block;
+                margin: 0;
+                align-items: center;
+                border-top: 3px solid gray;
+            }
+
+            .text-side-1 h2 , .text-side-2 h2, .text-side-3 h2{
+                font-size: 2rem;
+                font-weight: 700;
+                padding-top: 50px;
+            }
+        
+            .text-side-1 p, .text-side-2 p , .text-side-3 p{
+                font-size: 1.3rem;
+            }
+
+            .enjoy img, .download img, .watch-everywhere img{
+                width: 100%;
+            }
+
+            .footer-info{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                align-items: left;
+                }
+
+            .footer{
+                    background-color: rgb(15, 15, 15);
+                    margin-top: 100px;
+                    padding: 3rem 3rem;
+                    color: darkgray;
+                    }
+            
+          }
